@@ -1,0 +1,78 @@
+/* Estilo geral da página */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5eee7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Caixa de login */
+.login-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Título */
+.login-container h1 {
+    color: #245c3a;
+    margin-bottom: 10px;
+}
+
+.login-container p {
+    color: #777;
+    margin-bottom: 25px;
+}
+
+/* Campos de entrada */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #198754;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+.login-container input:focus {
+    border-color: #245c3a;
+}
+
+/* Botão */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #245c3a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.login-container button:hover {
+    background-color: #245c3a;
+}
+
+/* Link de cadastro */
+.login-container a {
+    color: #245c3a;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
